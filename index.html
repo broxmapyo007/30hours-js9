@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Notes app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<style>
+  body{
+    background: linear-gradient(grey,white); background-repeat:no-repeat;
+  }
+</style>
+<body ><center>
+   <p href="">
+    <h2> Brox js project </h2><br>Quick Notes</p>
+
+    <div class="container my-3" style="padding-top: 50px;">
+        <h1 style="text-align: center;">Save Quick notes</h1>
+        <div id="notes" class="row container-fluid" class="card" style="width: 18rem;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+                <h5 class="card-title">Add a note</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="addtext" placeholder="write here to add text" rows="3" style="background-color: rgb(192, 219, 231);"></textarea>
+                </div>
+                <a type="buttton" class="btn btn-primary" id="btn">add note</a>
+            </div>
+            <hr>
+            <h1>Notes</h1>
+            <hr>
+        </div>
+        <div id="note" class="row container-fluid">
+        </div>
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>
